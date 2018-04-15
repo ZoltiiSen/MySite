@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Contacts</title>
+  </head>
+  <body>
+    <article class="Page">
+      <header>
+        <h1 id>Roman Lytvynenko</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html" title="About My">About My</a></li>
+          <li><a href="Career.html" title="My Career">My Career</a></li>
+          <li><a href="#" title="Contacts">Contacts</a></li>
+          <li><a href="Skills.html" title="My Skills">My Skills</a></li>
+          <li><a href="lesson.html" title="Lesson">На Урок</a></li>
+        </ul>
+      </nav>
+      <section>
+        <h2>Обратная связь</h2>
+        <form name="form" class="" action="index.html" method="get">
+          <p><sup>*Обязательное поле</sup></p>
+          <div>
+            <label for="Name">Ваше имя:</label>
+            <input id="Name" type="text" name="Name" placeholder="*Name" required/><br />
+          </div>
+          <div>
+              <label for="SexondName">Вашу фамилию:</label>
+              <input id="SecondName" type="text" name="LName" placeholder="*Second name"required/><br />
+          </div>
+          <div>
+              <label for="set">Ссылка на вашу соц.сеть:</label>
+              <input id="set" type="url" name="Sotset" placeholder="http://..."/><br />
+          </div>
+          <div>
+              <label for="EMAIL">*Ваш e-mail</label>
+              <input id="EMAIL" type="email" name="e-mail" required placeholder="e-mail"/><br />
+          </div>
+          <div>
+            <label for="Phone">Ваш телефон:</label>
+            <input id="Phone" type="tel" name="Telephone" placeholder=" 1231231212"/><br />
+          </div>
+          <div>
+            <label for="pass">*Ваш пароль:</label>
+            <input id="Pass" type="password" name="Password" required placeholder="••••••••"/><br />
+          </div>
+          <div>
+            <label for="Select">*Выберите тип Вашего сообщения: </label>
+            <select name="Vid_soobsheniya" size="1" multiple required/>
+              <option disabled><i>Не выбрано</i></option>
+              <option value="Proposa">Предложение</option>
+              <option value="other">Другое...</option>
+            </select>
+          </div>
+          <div>
+            <textarea name="Message" rows="7" cols="40" placeholder="*Ваше сообщение" required></textarea>
+          </div>
+          <div>
+            <label for="Date">Дата отправки сообщения: </label>
+            <input id="Date" type="Date" name="Date">
+          </div>
+          <div>
+            <label>Поставте нам оценку(???)</label>
+            <input type="radio" name="Otzenka" value="1">1
+            <input type="radio" name="Otzenka" value="2">2
+            <input type="radio" name="Otzenka" value="3">3
+            <input type="radio" name="Otzenka" value="4">4
+            <input type="radio" name="Otzenka" value="5">5
+          </div>
+          <div>
+            <label>Насколько Вы удовлетворены работой сайта(???????????):</label>
+            <input type="range" name="Udovletvorennost" value="50" min="0" max="100" step="1">
+          </div>
+          <div>
+            <label>Выберите цвет(???):</label>
+            <input type="color" name="color" value="0">
+          </div>
+          <div>
+            <input type="submit" name="Otpravit" value="Отправить данные">
+            <input type="reset" name="Reset" value="Сбросить">
+          </div>
+        </form>
+      </section>
+    </article>
+  </body>
+</html>

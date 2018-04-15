@@ -1,0 +1,80 @@
+/* NOTE: Основная стр */
+body{
+  background-color:#8100FF;
+  color:#D5BBEF;
+  font-family:Impact;
+  letter-spacing: 0.5px;
+  padding: 15px;
+  margin: 15px;
+  text-indent: 10px;
+}
+.Page{
+  margin-top: 10px;
+  background-color: rgba(5, 30, 74, 0.1);
+  border: 0.1px solid #051E4A;
+}
+.Page section{
+  padding-left: 50px;
+}
+h2, h4, h3{
+  padding-left: 5px;
+}
+/* NOTE: Заголовок и nav */
+header{
+  background-color: rgba(5, 42, 105, 0.1);
+  padding-top: 1px;
+  padding-bottom: 1px;
+  text-align: center;
+  font-size: 30px;
+  margin: 1px;
+}
+nav {
+  margin-left: 60px;
+  display: block;
+  width: 95%; height: 50px;
+  background-color: rgba(150, 20,74, 0.1);
+  border-radius: 10px 0px;
+}
+nav li{
+  width: 20%;
+  display: inline;
+  font-size: x-large;
+  margin-bottom: 3px;
+  padding: 0px;
+}
+nav a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  width: 19%; height: 100%;
+  text-align: center;
+  height: 100%;
+}
+nav a:hover{
+  background-color: rgba(5, 30, 74, 0.1);
+  border-radius: 10px 0px;
+}
+/* NOTE: Забота с текстом */
+p b {
+  color:#A287BD;
+  font-weight: 700;
+}
+/* NOTE: Списки */
+section ol li{
+  padding-left: 5px;
+}
+/* NOTE: Фото Запорожья */
+#ZP {
+  text-align: center;
+}
+/* NOTE: для lorem */
+#lorem {
+  padding-left:10px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid #000;
+  font-style: italic;
+  color: #000;
+}
